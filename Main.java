@@ -1,25 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        double d1 = 42.0;
-        double d2 = 58.5;
-        double d3 = 37.2;
-        double t1 = 0.9;
-        double t2 = 1.4;
-        double t3 = 0.8;
-        double l1 = 5.1;
-        double l2 = 6.9;
-        double l3 = 4.3;
-        double precioLitro = 1.35;
-        double masaCargaKg = 1200.0;
-        double largo = 2.0;
-        double ancho = 1.2;
-        double alto = 1.1;
-        double p1 = 2.5;
-        double p2 = 3.0;
-        double p3 = 2.0;
-        double deprecPorKm = 0.08;
-        double volCamionM3 = 10.0;
-        double fco2 = 2.68;
+        double d1 = 35.0;
+        double d2 = 72.0;
+        double d3 = 53.0;
+        double t1 = 0.7;
+        double t2 = 1.6;
+        double t3 = 1.1;
+        double l1 = 4.4;
+        double l2 = 9.0;
+        double l3 = 6.2;
+        double precioLitro = 1.42;
+        double masaCargaKg = 1450.0;
+        double largo = 2.2;
+        double ancho = 1.3;
+        double alto = 1.0;
+        double p1 = 3.2;
+        double p2 = 3.8;
+        double p3 = 2.7;
+        double deprecPorKm = 0.085;
+        double volCamionM3 = 12.0;
+        double fco2 = 2.64;
         double galPorLitro = 0.264172;
         double vMin = 30.0;
         double vMax = 90.0;
@@ -27,9 +27,9 @@ public class Main {
         double vb = 80.0;
         double ca = 0.05;
         double cb = 0.09;
-        double a = -0.0008;
-        double b = 0.08;
-        double c = 4.0;
+        double a = -0.0009;
+        double b = 0.09;
+        double c = 3.8;
 
         // Velocidades y rendimiento
         double v1 = d1 / t1;
@@ -80,7 +80,7 @@ public class Main {
         System.out.println("co2porKm: " + co2porKm);
         
         // Conversiones y normalizacion
-        double vmsProm = vProm * (1000 / 3600);
+        double vmsProm = vProm * (1000.0 / 3600.0);
         System.out.println("vmsProm: " + vmsProm);
         double galTot = (l1 + l2 + l3) * galPorLitro;
         System.out.println("galTot: " + galTot);
