@@ -80,7 +80,7 @@ public class Main {
         System.out.println("co2porKm: " + co2porKm);
         
         // Conversiones y normalizacion
-        double vmsProm = vProm * (1000 / 3600);
+        double vmsProm = vProm * (1000.0 / 3600.0);
         System.out.println("vmsProm: " + vmsProm);
         double galTot = (l1 + l2 + l3) * galPorLitro;
         System.out.println("galTot: " + galTot);
